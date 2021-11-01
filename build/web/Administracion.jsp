@@ -53,10 +53,11 @@
                     <li class="nav-item">
                         <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="#">Reporte</a>
                     </li>
-
+                    
                     <li class="nav-item">
-                        <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="Control?accion=Cliente" tabindex="-1" aria-disabled="true">Clientes</a>
+                        <a style="margin-left: 10px; border: none" class="btn btn-outline-light" href="Control?accion=Cliente" target="myFrame">Cliente</a>
                     </li>
+
                 </ul> 
             </div>
 
@@ -86,15 +87,13 @@
                               <%= sesion.getAttribute("cargo")%>
                         </a>
                     <div class="dropdow-item"> </div>
-                    <a class="dropdown-item" href="Control?accion=logout">Salir</a>
-                     
+                    <a class="dropdown-item" href="Control?accion=logout">Salir</a> 
                 </div>
-                   
             </div>
         </nav>
 
-        <div class="m-4" style="height: 700px;">
-            <iframe name="myFrame" style="height: 100% ; width: 100% ; background:  aquamarine">hhhh</iframe>
+        <div class="m-4" style="height: 600px;">
+            <iframe name="myFrame" style="height: 100% ; width: 100%"></iframe>
         </div>
 
 
